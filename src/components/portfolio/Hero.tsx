@@ -25,7 +25,7 @@ export const Hero = () => {
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-8 leading-relaxed">
-              I build scalable backend systems and intelligent applications using modern technologies — turning ideas into production-ready software.
+              I develop efficient backend systems and real-world applications using FastAPI, AI, and modern development practices.
             </p>
 
             <div className="flex flex-wrap gap-3">
