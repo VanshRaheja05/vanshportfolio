@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, School } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export const Experience = () => {
@@ -33,7 +33,7 @@ export const Experience = () => {
           </div>
 
           {/* Education */}
-          <div id="education">
+          <div id="education" className="space-y-6">
             <h2 className="section-title">Education</h2>
             <p className="section-subtitle">Academic background.</p>
 
@@ -54,6 +54,46 @@ export const Experience = () => {
                     </span>
                     <span className="px-2.5 py-1 rounded-md bg-secondary text-secondary-foreground text-xs font-medium">
                       Graduating 2027
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 border-border card-hover">
+              <div className="flex items-start gap-4">
+                <div className="h-11 w-11 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                  <School className="text-primary" size={20} />
+                </div>
+                <div className="flex-1">
+                  <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
+                    <h3 className="font-semibold text-foreground">Class 12th</h3>
+                    <span className="text-xs text-muted-foreground font-medium">CBSE</span>
+                  </div>
+                  <p className="text-sm text-primary font-medium mb-3">DAV Public School</p>
+                  <div className="flex gap-3 flex-wrap">
+                    <span className="px-2.5 py-1 rounded-md bg-accent text-accent-foreground text-xs font-semibold">
+                      Percentage 79%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 border-border card-hover">
+              <div className="flex items-start gap-4">
+                <div className="h-11 w-11 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                  <School className="text-primary" size={20} />
+                </div>
+                <div className="flex-1">
+                  <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
+                    <h3 className="font-semibold text-foreground">Class 10th</h3>
+                    <span className="text-xs text-muted-foreground font-medium">CBSE</span>
+                  </div>
+                  <p className="text-sm text-primary font-medium mb-3">DAV Public School</p>
+                  <div className="flex gap-3 flex-wrap">
+                    <span className="px-2.5 py-1 rounded-md bg-accent text-accent-foreground text-xs font-semibold">
+                      Percentage 89%
                     </span>
                   </div>
                 </div>
