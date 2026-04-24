@@ -52,7 +52,7 @@ export const Hero = () => {
               <div className="absolute -inset-3 bg-gradient-accent rounded-3xl opacity-10 blur-2xl" />
               <div className="relative h-48 w-48 md:h-64 md:w-64 rounded-3xl overflow-hidden ring-4 ring-background shadow-elevated">
                 <img
-                  src={portrait}
+                  src="https://i.postimg.cc/rwtfGdmy/formalphoto.jpg"
                   alt="Vansh Raheja, Software Developer"
                   width={1024}
                   height={1024}
