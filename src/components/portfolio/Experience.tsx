@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, School } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export const Experience = () => {
